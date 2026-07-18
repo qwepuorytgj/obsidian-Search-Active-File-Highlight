@@ -1,0 +1,10 @@
+{
+	"id": "search-active-file-highlight",
+	"name": "Search Active File Highlight",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Highlight the currently open file in search results panel.",
+	"author": "Custom",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}
