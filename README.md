@@ -4,3 +4,4 @@ However, in search mode, after searching for keywords, several related files app
 
 I would like the search mode to also display a shadow for the file I'm currently viewing.
 
+<img width="1150" height="800" alt="image" src="https://github.com/user-attachments/assets/3d12d9d6-da64-49c6-9bf5-b71ddc688798" />
