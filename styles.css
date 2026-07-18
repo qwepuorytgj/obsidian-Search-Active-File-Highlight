@@ -1,0 +1,63 @@
+/* Search Active File Highlight Plugin Styles v2.6 */
+
+/* ========== tree-item 高亮（path: 搜索）========== */
+.search-active-file-highlight .tree-item.is-active-file {
+	background-color: #7b6cf6 !important;
+	box-shadow: 0 0 6px #7b6cf6 !important;
+	border-radius: 4px;
+	transition: all 0.2s ease;
+}
+
+.search-active-file-highlight .tree-item.is-active-file .tree-item-inner {
+	color: var(--text-on-accent, #ffffff) !important;
+	font-weight: 600;
+}
+
+.search-active-file-highlight .tree-item.is-active-file .tree-item-inner span {
+	color: var(--text-on-accent, #ffffff) !important;
+}
+
+.search-active-file-highlight .tree-item.is-active-file .tree-item-flair,
+.search-active-file-highlight .tree-item.is-active-file .search-result-file-path {
+	color: var(--text-on-accent, #ffffff) !important;
+	opacity: 0.85;
+}
+
+.search-active-file-highlight .tree-item.is-active-file:hover {
+	background-color: var(--interactive-accent-hover, #8b7cf6) !important;
+}
+
+/* ========== search-result 高亮（普通搜索）========== */
+.search-active-file-highlight .search-result.is-active-file {
+	background-color: #7b6cf6 !important;
+	box-shadow: 0 0 6px #7b6cf6 !important;
+	border-radius: 4px;
+	transition: all 0.2s ease;
+}
+
+.search-active-file-highlight .search-result.is-active-file .search-result-file-title {
+	color: var(--text-on-accent, #ffffff) !important;
+	font-weight: 600;
+}
+
+.search-active-file-highlight .search-result.is-active-file .search-result-file-path {
+	color: var(--text-on-accent, #ffffff) !important;
+	opacity: 0.85;
+}
+
+.search-active-file-highlight .search-result.is-active-file .search-result-file-match {
+	color: var(--text-on-accent, #ffffff) !important;
+}
+
+.search-active-file-highlight .search-result.is-active-file:hover {
+	background-color: var(--interactive-accent-hover, #8b7cf6) !important;
+}
+
+/* ========== 独立的 search-result-file-title 高亮 ========== */
+.search-active-file-highlight .search-result-file-title.is-active-file {
+	background-color: #7b6cf6 !important;
+	color: var(--text-on-accent, #ffffff) !important;
+	box-shadow: 0 0 6px #7b6cf6 !important;
+	border-radius: 4px;
+	font-weight: 600;
+}
